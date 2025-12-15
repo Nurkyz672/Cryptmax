@@ -5,18 +5,8 @@
   font-family: Arial, sans-serif;
 }
 
-body {
-  background-color: #ffffff;
-}
-
-/* Header */
-.header {
-  width: 100%;
-  border-bottom: 1px solid #eee;
-}
-
 .container {
-  max-width: 1200px;
+  max-width: 80%;
   margin: auto;
   padding: 20px 0;
   display: flex;
@@ -24,14 +14,23 @@ body {
   justify-content: space-between;
 }
 
-/* Logo */
+body {
+  background-color: #ffffff;
+}
+
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+
 .logo {
   font-size: 22px;
   font-weight: bold;
   color: #6c5ce7;
 }
 
-/* Navigation */
 .nav a {
   margin: 0 15px;
   text-decoration: none;
@@ -43,7 +42,6 @@ body {
   color: #6c5ce7;
 }
 
-/* Actions */
 .actions {
   display: flex;
   align-items: center;
